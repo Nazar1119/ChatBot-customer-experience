@@ -117,7 +117,9 @@ This significantly reduces false positives.
 - Email embeddings are compared to prototype embeddings using cosine similarity
 
 ### Intent Categories
-- Order Issue (Status / Cancel / Modify)
+- Order Status
+- Order Cancel
+- Order Modify
 - Return / Complaint
 - Product Question
 - Store / Delivery / Availability
@@ -147,6 +149,7 @@ Emails are routed based on **confidence and business rules**:
 ### Automated Chatbot
 Only safe FAQ-type intents are handled automatically:
 - Order Status
+- Order Cancel
 - Product Question
 - Store / Delivery / Availability
 
