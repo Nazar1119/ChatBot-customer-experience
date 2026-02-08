@@ -1,0 +1,275 @@
+id,subject,email_text,language
+1,TÝŽDEŇ ČAKÁM!!!,UŽ TÝŽDEŇ ČAKÁM NA OBJEDNÁVKU 68247! ČO SA DEJE???,sk
+2,Gluténová diéta,"Prosím vás, ktoré z vašich proteínov sú bezgluténové? Mám celiakiu.",sk
+3,Gainér a vitamíny,"Ahojte, minulý týždeň som objednal gainér a vitamíny, objednávka 53471, a stále nič. Help!",sk
+4,Duplicitná objednávka,"Ahoj, vytvoril som 2 objednávky omylom, 66481 a 66482. Môžete zrušiť jednu z nich?",sk
+5,Zmena mena príjemcu,"Ahoj, obj 52936, dá sa zmeniť meno príjemcu? Je to darček.",sk
+6,EAA vs BCAA,"Dobrý deň, čo je lepšie, EAA alebo BCAA? V čom je rozdiel?",sk
+7,Ako vrátiť tovar?,Prosím vás ako môžem vrátiť tovar? Objednávka 71863. Potrebujem adresu kam to poslať.,sk
+8,Máte pobočku v Bratislave?,"Prosím vás, plánujete otvoriť predajňu aj v Bratislave?",sk
+9,Kde máte predajňu?,"Dobrý deň, kde máte kamennú predajňu? Môžem tam nakúpiť osobne?",sk
+10,Pridať produkt do objednávky,"Ahoj, objednávka 67329, môžem ešte pridať jeden produkt?",sk
+11,Vráti sa doprava?,"Dobrý deň, obj 86524 vrátenie. Vráti sa mi aj doprava čo som zaplatil?",sk
+12,Zrušiť objednávku 45726,"Dobrý deň, potrebujem ZRUŠIŤ objednávku 45726. Ešte nebola odoslaná. Ide to?",sk
+13,Chýba produkt,"Ahoj, v mojej objednávke 59643 chýba jeden produkt. Mal by som dostať 2 BCAA ale prišlo len jedno balenie. Prosím o riešenie.",sk
+14,Kolagen na kĺby,"Dobrý večer, máte kolagén na kĺby? Pomôže to pri bolestiach kolien?",sk
+15,Ako podať reklamáciu?,"Ahoj, ako mám postupovať pri reklamácii tovaru?",sk
+16,Zlá príchut proteínu,"Prosím vás, objednal som si čokoládový proteín ale prišiel mi vanilkový, obj. 81234. Môžete to vymeniť?",sk
+17,Doručujete do Česka?,"Ahoj, doručujete objednávky aj do Českej republiky?",sk
+18,URGENTNÉ INFO,Objednávka č. 52648 potrebujem info urgentne!!!,sk
+19,Omyl v objednávke,"Objednávka 55298, chcem zrušiť. Objednal som zlý produkt.",sk
+20,Kreatín monohydrát Creapure,"Dobrý deň, aký je rozdiel medzi 100% Kreatín monohydrát a Mikronizovaný kreatín Creapure? Ktorý je lepší?",sk
+21,Sponzoring fitness výstavy,"Dobrý deň, pripravujeme Fitness EXPO Košice 2026, najväčšiu fitness výstavu na východnom Slovensku. Očakávame 10000 návštevníkov. Ponúkame vám možnosť zlatého partnerstva za 5000 EUR. Záujem o stretnutie?",sk
+22,Proteín bez umelých sladidiel,"Ahoj, máte nejaký proteín ktorý neobsahuje umelé sladidlá? Chcem niečo čo prírodné.",sk
+23,DÔLEŽITÉ - váš účet bude zablokovaný,UPOZORNENIE! Váš účet na GymBeam.sk bude zablokovaný do 24 hodín! Musíte si overiť identitu kliknutím na tento link: www.phishing-gymbeam.com a zadať prihlasovacie údaje! URGENTNE!!!,sk
+24,Rozsypaný proteín,"Dobrý deň, dnes mi prišiel balík ale proteín ktorý som si objednal je celý rozsypaný. Obal bol poškodený. Objednávka 45728. Čo mám robiť?",sk
+25,Rozmyslel som si to,Prosím vás môžete zrušiť objednávku 53268? Rozmyslel som si to.,sk
+26,Je vrátenie zadarmo?,"Objednávka 61429, chcem vrátiť všetky produkty. Zaplatím za dopravu alebo je to zadarmo?",sk
+27,Zrušenie pred expedíciou,"Dobrý deň, objednávka 66819, stále je v sklade? Chcem ju zrušiť.",sk
+28,Status objednávky 74158,"Dobrý deň, potrebujem vedieť status mojej objednávky. Číslo: 74158",sk
+29,Program vernosti,"Ahoj, máte nejaký vernostný program pre stálych zákazníkov?",sk
+30,Kde balík?,"Ahoj, kde mám balík? Obj 47852",sk
+31,Prasknutá dóza,"Dobrý večer, obj. 79512 obsahuje poškodený tovar. Prasknutá dóza s proteínom, všetko je vysypané po balíku.",sk
+32,Omyl pri platbe,"Ahoj, obj. 79456 zrušiť. Vybral som zlý spôsob platby.",sk
+33,Objednať kuriéra na vyzdvihnutie,"Obj. 91756, tovar mi nevyhovuje, chcem vrátiť. Môžete objednať kuriéra?",sk
+34,Zmena na dobierku,"Dobrý večer, objednávka 53728, môžem zmeniť platbu na dobierku?",sk
+35,Môžem vrátiť tovar?,"Dobrý večer, dá sa vrátiť tovar ak mi nebude vyhovovať?",sk
+36,Rozbitá fľaša s vitamínmi,"Dobrý večer, balík 51942 bol doručený s rozbitou fľašou. Všetko je lepkavé od vitamínov.",sk
+37,Zmeniť dopravcu,"Dobrý večer, obj 83542, dá sa zmeniť dopravca? Chcem radšej kuriéra.",sk
+38,Dlhé čakanie,"Ahojte, mohol by som vedieť kedy konečne príde objednávka 73945? Čakám už dlho.",sk
+39,Ako dlho trvá vrátenie?,"Obj 79684, chcem vrátiť, príchut mi vôbec nevyhovuje. Ako dlho trvá vrátenie peňazí?",sk
+40,Čo je TatraPay?,"Ahojte, čo je to TatraPay? Ako funguje táto platba?",sk
+41,Link nefunguje,"Ahoj, snažím sa dokončiť objednávku ale stránka mi stále píše error. Čo s tým?",sk
+42,Potrebujem tracking,"Dobrý deň, potrebujem tracking number pre objednávku 58963. Nemôžem nájsť email s info.",sk
+43,Otvorený proteín vrátenie,"Ahoj, môžem vrátiť otvorený proteín? Obj. 86132. Vyskúšal som jednu dávku a nejde mi to.",sk
+44,Alergia na orechy,"Dobrý deň, som alergický na orechy. Ktoré proteíny neobsahujú žiadne orechové zložky? Potrebujem vedieť presne.",sk
+45,POTREBUJEM OKAMŽITE RIEŠENIE!!!,"TOTO JE ABSOLÚTNE NEPRIJATEĽNÉ! Už tretíkrát mám problém s objednávkou! Ak to nevyriešite okamžite, obraciam sa na súd! Mám už všetko pripravené pre právnika!",sk
+46,Stratil som trpezlivosť,Kde je moja objednávka 88901? Už som stratil trpezlivosť.,sk
+47,Poškodený produkt,"Objednávka 72986, produkt je poškodený. Chcem výmenu alebo vrátenie peňazí.",sk
+48,Vrátenie celej objednávky,"Objednávka 83526, chcem vrátiť celú objednávku. Kedy mi vrátia peniaze?",sk
+49,Ako dlho trvá doručenie?,"Ahojte, za koľko dní mi príde objednávka približne?",sk
+50,ZNIČENÝ BALÍK!,"TOTO JE NEHORÁZNE! Balík prišiel úplne zničený, všetko porozhadzované! Obj. 53897. Idem sa sťažovať aj prepravcovi!",sk
+51,LACNÉ VIAGRA!!!,"KÚPTE SI VIAGRA, CIALIS BEZ RECEPTU!!! NAJNIŽŠIE CENY NA SLOVENSKU!!! WWW.SPAM-VIAGRA.COM SUPER AKCIA LEN DNES!!!",sk
+52,Tracking number?,"Čauko, objednal som proteín minulý týždeň, objednávka 44556, a stále nič. Môžete mi poslať tracking?",sk
+53,Sponzorstvo YouTube fitness kanála,"Ahoj, mám fitness YouTube kanál s 5000 odberateľmi. Nahrávam tréningové videá a recenzie suplementov. Zaujíma vás spolupráca? Môžem robiť recenzie vašich produktov výmenou za doplnky zadarmo.",sk
+54,KATASTROFA!!!,"OBJEDNÁVKA 73826 JE KATASTROFA! Všetko poškodené, balík vyzeral že ním niekto kopal!!!",sk
+55,Funguje zľavový kupón s poukážkou?,"Prosím vás, môžem použiť zľavový kupón aj s darčekovou poukážkou súčasne?",sk
+56,Anabolic Whey príchuť vanilka,"Ahoj, aká je chuť vanilkovej príchuti u Anabolic Whey? Nie je to príliš sladké? Mám zlé skúsenosti s inými značkami.",sk
+57,Tracking number prosím,"Ahoj, obj 91247, môžete mi poslať tracking number? Ďakujem!",sk
+58,HVOR JE ZÁSIELKA????,"AHOJ! Kde je moja zásielka???? Objednávka 63478, už 6 dní čakám!!!!",sk
+59,Nesprávny typ whey,"Dobrý deň, obj 69438 obsahuje nesprávny produkt. Objednal som iso whey ale prišiel mi klasický.",sk
+60,Dámske legíny Simple,"Ahojte, zaujímajú ma dámske legíny Simple Black. Sú bezšvové? A majú vysoký pás?",sk
+61,Email o odoslaní som nedostal,"Dobrý deň, objednávka 79134, žiadny email o odoslaní som nedostal. Čo sa deje?",sk
+62,Kde balík???,Prosím vás kde je balík??? Obj. 62895,sk
+63,Žiadne potvrdenie objednávky,"Dobrý deň, pred 3 dňami som vytvoril objednávku ale žiadny email s potvrdením mi neprišiel. Čo mám robiť?",sk
+64,Iný spôsob platby,"Prosím vás, objednávka 54917, môžem zmeniť platbu? Radšej zaplatím vopred.",sk
+65,Čo robiť pri poškodenom balíku?,"Dobrý deň, čo mám robiť ak mi kuriér prinesie poškodený balík?",sk
+66,Spammmm,KÚPTE SI LACNÉ LIEKY BEZ RECEPTU WWW.SPAM.COM SUPER PONUKA!!!,sk
+67,Spolupracujete s Woltom?,"Prosím vás, dá sa objednať cez Wolt alebo inú donáškovú službu?",sk
+68,Objednávka kamaráta,"Dobrý deň, môj kamarát si objednal niečo na moje meno ale teraz to nechce. Objednávka je jeho nie moja takže ju chcem zrušiť.",sk
+69,Vrátenie darčekového balíčka,"Dobrý večer, potrebujem vrátiť darčekový balíček ktorý som dostal. Je to možné? Obj 79268.",sk
+70,Ktoré karty prijímate?,"Prosím vás, ktoré platobné karty akceptujete?",sk
+71,Originálny obal nutný?,"Objednávka 65937 vrátenie, musím zabaľovať tovar do originálneho obalu?",sk
+72,Pre vegetariánov,"Ahoj, ktoré produkty sú vhodné pre vegetariánov?",sk
+73,KDE JE MOJA OBJEDNÁVKA???,URGENTNE potrebujem vedieť čo sa deje s objednávkou 78123! Platil som expresne doručenie a už 5 dní nič!!!,sk
+74,Zrušenie objednávky 79614,"Dobrý deň, zrušenie objednávky č. 79614. Kúpil som to omylom.",sk
+75,Príchuť čokoláda recenzie,"Ahoj, je čokoládová príchut whey naozaj dobrá? Čítam zmiešané recenzie.",sk
+76,Poškodený balík od kuriéra,"Ahojte, balík 63429 bol viditeľne poškodený, ale kuriér ma núti ho prevziať. Čo mám robiť?",sk
+77,Tracking ASAP!,Objednávka 59871 potrebujem tracking number ASAP!,sk
+78,Alergie na laktózu,"Prosím vás, ktoré proteíny sú vhodné pre ľudí s laktózovou intoleranciou?",sk
+79,Vráti sa poštovné?,Chcem vrátiť tovar z objednávky 69173. Vráti sa mi aj poštovné čo som zaplatil?,sk
+80,Iná doprava potrebná,"Obj. 86412, chcem zmeniť dopravu na výdajné miesto namiesto domu.",sk
+81,Predtréningový doplnok,"Ahoj, máte nejaký predtréningový doplnok čo by ste odporúčali?",sk
+82,Poškodený balík,"Dobrý deň, balík 55934 prišiel poškodený, krabica bola celá rozbitá. Dve veci vnútri sú poškodené.",sk
+83,Kedy odoslaná?,"Objednávka 66741, kedy odoslaná? Ďakujem",sk
+84,Vegan proteín odporúčanie,"Dobrý deň, som vegán. Ktorý rastlinný proteín mi odporúčate? Sójový alebo hrachový?",sk
+85,Vrátenie proteínu,"Dobrý deň, chcem vrátiť proteín z objednávky 45982. Nechuť mi, nevyhovuje mi. Ako to mám spraviť?",sk
+86,Odobrať jeden produkt,"Ahoj, obj 77591, môžete odobrať jeden produkt z objednávky? Už ho nepotrebujem.",sk
+87,Podpora lokálneho atlétického klubu,"Ahoj, som tréner atlétického klubu v Nitre. Máme 35 mladých talentov, ktorí potrebujú podporu. Mohli by ste prispieť finančne alebo produktmi? Výmenou môžeme dať vaše logo na naše dresy a mention na Facebooku.",sk
+88,Lehota na vrátenie?,"Ahojte, chcem vrátiť objednávku 76249. Je nejaká lehota na vrátenie?",sk
+89,Pleseň na tyčinkách!!!,"Objednávka 88623, tyčinky majú pleseň!!! To je nechutné! Chcem reklamovať a peniaze naspäť!",sk
+90,Proteín pre ženy odporúčanie,"Ahojte, som žena a chcem začať brať proteín. Ktorý by ste mi odporúčali? Nechcem sa príliš svalovať.",sk
+91,Kedy príde balík?,"Dobrý deň, chcel by som sa opýtať kedy mi príde balík. Objednávka: 64523",sk
+92,Chýba kreatín,"Ahoj, objednávka 68945, chýba mi jeden produkt, kreatín. Platil som za 3 veci ale prišli len 2.",sk
+93,Zloženie gainery,"Ahoj, môžete mi poslať presné zloženie vášho mass gainery? Zaujíma ma pomer sacharidov a bielkovín.",sk
+94,Chýba a poškodené,"Ahoj, objednávka 86235, jeden produkt úplne chýba a druhý je poškodený. Potrebujem riešenie rýchlo.",sk
+95,Objednávka 67234,"Ahoj, potrebujem zistiť kde je moja objednávka 67234. Už je to týždeň a nič. Tracking number som nedostal.",sk
+96,ZRUŠIŤ IHNEĎ!,Obj. 81547 ZRUŠIŤ IHNEĎ! Zle som vyplnil adresu!,sk
+97,Tovar pred týždňom,"Dobrý večer, objednal som tovar pred týždňom, objednávka 69234, a stále nemám tracking. Kedy to ide?",sk
+98,Pôvod výrobku,"Ahoj, odkiaľ pochádzajú vaše proteíny? Kde sa vyrábajú? Je to dôveryhodný výrobca?",sk
+99,Koľko stojí doprava na Slovensku?,"Ahoj, koľko stojí doprava na Slovensku? Sú nejaké rozdiely medzi dopravcami?",sk
+100,status?,obj. 94567 status?,sk
+101,Zrušiť objednávku pred hodinou,"Ahoj, môžem ešte zrušiť objednávku 58932? Vytvoril som ju pred hodinou.",sk
+102,Kedy objednáte kuriéra?,"Dobrý deň, vrátenie tovaru objednávka 58419. Kedy objednáte kuriéra na vyzdvihnutie?",sk
+103,Odosielate v sobotu?,"Dobrý večer, odosielate objednávky aj cez víkend?",sk
+104,Poškodená fľaša,"Dobrý deň, v objednávke 74562 je poškodená fľaša na pitie. Je celá pomačkaná. Ako to vyriešime?",sk
+105,Hmotnosť balíka,"Dobrý deň, koľko približne váži balík s 3kg proteínu? Riešim to kvôli doprave.",sk
+106,Kombinovať suplementy?,"Dobrý deň, môžem kombinovať kreatín s proteínom a BCAA súčasne?",sk
+107,Kryptomeny - GUARANTEED PROFIT,Hello! I have exclusive access to new cryptocurrency that will explode 1000x!!! Invest now minimum $500 and become MILLIONAIRE in 6 months!!! Contact: crypto-millions@scam.com LIMITED OFFER!!!,sk
+108,Najlepšia príchut,"Dobrý večer, ktorá príchut proteínu je najpredávanejšia? Chcem niečo čo naozaj chutí.",sk
+109,Otvorený kreatín!,"Objednávka 64389, kreatín ktorý mi prišiel je otvorený! Chýba tam možno polovica!",sk
+110,Priniesť osobne na predajňu?,Prosím o vrátenie objednávky 51693. Môžem to priniesť osobne na predajňu?,sk
+111,Brať aj v nétréningové dni?,"Ahoj, mám brať proteín aj v dňoch keď netrénujem?",sk
+112,Stav objednávky,"Dobrý večer, objednávka 55421 kedy bude odoslaná? Ďakujem za odpoveď.",sk
+113,Kazí sa proteín?,"Ahojte, ako dlho vydrží otvorený proteín? Pokazí sa?",sk
+114,Pre seniora,"Dobrý deň, môj otec má 68 rokov a chce začať cvičiť. Je pre neho proteín bezpečný?",sk
+115,Newsletter odhlásenie,"Ahoj, ako sa môžem odhlásiť z newslettra? Chodí mi priveľa emailov.",sk
+116,Môžem nakúpiť telefonicky?,"Dobrý večer, dá sa objednať tovar aj cez telefón?",sk
+117,Koľko trvá vrátenie peňazí?,"Dobrý deň, za ako dlho mi vrátite peniaze po vrátení tovaru?",sk
+118,Ako sa stať partnerom?,"Dobrý deň, prevádzkovujem fitnescentrum a zaujíma ma možnosť veľkoobchodnej spolupráce. Kde nájdem viac info?",sk
+119,Rozbitý shaker,"Obj. 91584, shaker je celý rozbitý, použiť sa nedá. Chcem nový alebo peniaze späť.",sk
+120,Koľko dní skladujete na výdajnom mieste?,"Prosím vás, koľko dní mám čas vyzdvihnúť si objednávku z výdajného miesta?",sk
+121,L-karnitín tekutý účinok,"Dobrý večer, L-karnitín v tekutej forme od GymBeam naozaj pomáha pri chudnutí? Kedy ho mám piť?",sk
+122,Kreatín monohydrát vs iné,"Dobrý deň, je nejaký rozdiel medzi kreatín monohydrátom a inými formami kreatínu? Čo je lepšie?",sk
+123,Musím sa registrovať?,"Prosím vás, musím si vytvoriť účet alebo môžem nakúpiť bez registrácie?",sk
+124,Kedy peniaze na účet?,"Ahojte, obj. 82647 vrátenie. Kedy mi prídu peniaze naspäť na účet?",sk
+125,Dávkovanie BCAA,"Dobrý večer, ako správne dávkovať BCAA? Koľko to mám brať?",sk
+126,Rozsypané aminokyseliny,"Prosím o pomoc, objednávka 54671, aminokyseliny sú celé rozsypané v balíku.",sk
+127,Koľko stojí dobierka?,"Ahoj, koľko je poplatok za platbu na dobierku?",sk
+128,Materiál šortiek Vertical,"Ahoj, z akého materiálu sú šortky Vertical Black? Sú priedušné? Chodím behať a potrebujem niečo čo odvádza pot.",sk
+129,Objednávka pre právnickú osobu,"Dobrý večer, ako vytvoriť objednávku na firmu? Potrebujem faktúru s DIČ.",sk
+130,4 dni bez odpovede,Objednávka 87632 kedy príde? Už 4 dni čakám na odpoveď.,sk
+131,Tracking pre 75421,Prosím tracking pre 75421,sk
+132,URGENT - Váš balík čaká,SLOVENSKÁ POŠTA: Váš balík č. SP892347 čaká na vyzdvihnutie. Musíte zaplatiť colný poplatok 2.50 EUR. Kliknite tu pre platbu: www.phishing-posta.sk BALÍK BUDE VRÁTENÝ ZA 48 HODÍN!!!,sk
+133,PRIŠIEL NESPRÁVNY PRODUKT!!!,SKANDÁL! Objednal som 3kg whey a prišiel mi nejaký gainér!!! Objednávka 72341. Chcem peniaze naspäť HNEĎ!,sk
+134,Športová podprsenka Simple podpora,"Ahoj, aká je úroveň podpory pri športovej podprsenke Simple Black? Mám väčšiu veľkosť a potrebujem silnú podporu.",sk
+135,Zvláštna vôňa proteínu,"Dobrý deň, prosím o reklamáciu obj. 94271. Proteín má zvláštnu vôňu a farbu, nevyzerá to normálne.",sk
+136,tracking???,obj 95623 tracking???,sk
+137,Požiadavka o sponzoring športovca,"Ahoj, volám sa Marek a som amatérsky kulturista. Súťažím už 2 roky a teraz sa pripravujem na majstrovstvá Slovenska. Potreboval by som sponzoring vo forme doplnkov výživy. Môžete mi pomôcť?",sk
+138,Nejde zaplatiť,"Ahojte, objednávka 69743, nemôžem ju zaplatiť kartou. Radšej ju zrušte.",sk
+139,Zrušenie čaká na spracovanie,"Dobrý večer, objednávka 64173, chcem zrušiť. Ešte stále je v stave čaká na spracovanie.",sk
+140,Vrátenie gainery,"Ahojte, chcem vrátiť gainér z obj. 64257. Je to ešte neotvorené. Vráti sa mi plná suma?",sk
+141,Dotaz na dávkovanie,"Dobrý deň, potrebujem vedieť správne dávkovanie pre whey proteín. Koľko odmeriek denne?",sk
+142,Kedy brať kreatín?,"Ahojte, kedy je najlepšie užívať kreatín? Pred alebo po tréningu?",sk
+143,Už som to kúpil inde,"Dobrý večer, prosím o zrušenie objednávky 85273. Už som si to kúpil inde.",sk
+144,Chcem zrušiť objednávku,"Dobrý večer, objednávka 72935, chcem ju zrušiť. Ešte je čas?",sk
+145,Odkiaľ pochádzate?,"Ahoj, ste slovenská firma? Odkiaľ dovážate produkty?",sk
+146,Formulár na vrátenie,"Dobrý večer, potrebujem formulár na vrátenie tovaru pre objednávku 93758.",sk
+147,Zlá príchut!!!,"Prosím vás obj 55318, prišla mi úplne iná príchut než som si objednal!!!",sk
+148,Arašidové maslo zloženie,"Dobrý deň, môžete mi povedať či arašidové maslo GymBeam obsahuje palmový olej? A koľko percent arašidov tam je?",sk
+149,Neviem sa prihlásiť,"Ahoj, neviem sa prihlásiť do môjho účtu. Píše to zlé heslo ale som si istý že je správne.",sk
+150,Proteínové palacinky príprava,"Prosím vás, ako sa pripravujú proteínové palacinky Pancake & Waffle Mix? Koľko vody alebo mlieka mám pridať?",sk
+151,Zmena príchuti,"Dobrý večer, obj 58963, môžem zmeniť príchuť proteínu? Chcel som čokoládu nie vanilku.",sk
+152,Ponožky 3Pack kvalita,"Dobrý večer, aká je kvalita ponožiek 3/4 Socks 3Pack White? Nejdú sa po praní? Čítam zmiešané recenzie.",sk
+153,Zrušenie 77514,"Dobrý večer, potrebujem zrušiť objednávku 77514. Ďakujem.",sk
+154,Ahoj potrebujem poradiť,"Ahoj, potreboval by som poradiť s výberom proteínu. Môžete mi pomôcť?",sk
+155,Objednávka 81203,"Objednávka 81203, už to ide alebo nie? Neviem nič o stave.",sk
+156,Sponzoring MMA zápasníka,"Dobrý deň, som profesionálny MMA bojovník a hľadám sponzora. Mám za sebou 12 zápasov, bilancia 8-4. Vaše logo by bolo na mojich tréningových šortách a na sociálnych sieťach (2000 followerov). Môžete ma podporiť?",sk
+157,ZRUŠIŤ URGENTNE!!!,URGENTNE ZRUŠIŤ objednávku 72849! Omylom som objednal 2x! PROSÍM!!!,sk
+158,Nechcem už objednávku,"Dobrý deň, objednávka 91672, už to nepotrebujem. Môžete zrušiť?",sk
+159,Zmena adresy URGENTNE!,URGENTNE potrebujem zmeniť adresu v objednávke 72658! Zadal som zlú ulicu!,sk
+160,Iná pobočka pošty,"Dobrý deň, objednávka 78542, chcem inú pobočku pošty pre vyzdvihnutie.",sk
+161,Chcem inú dopravu,"Dobrý večer, objednávka 51734, môžete ju zrušiť? Chcem si objednať s inou dopravou.",sk
+162,Zlepený kreatín,"Dobrý deň, obj. 87154 reklamácia. Kreatín je celý zlepený do kopy, nedá sa použiť.",sk
+163,Nechcem čakať,"Objednávka 62194 zrušiť. Trvá to príliš dlho, nechcem už čakať.",sk
+164,Úplne iný produkt,"Ahojte, v objednávke 71248 som dostal úplne iný produkt ako som si objednal. Čo teraz?",sk
+165,Pokazený shaker,"Dobrý večer, objednávka 66821, prišiel mi pokazený shaker, je celý prasknutý. Môžem to vrátiť?",sk
+166,Zrušiť pred odoslaním,"Ahoj, obj 63847, ide to zrušiť? Ešte nebola odoslaná podľa systému.",sk
+167,Rýchle zrušenie potrebujem,"Dobrý deň, obj 74185, potrebujem ju zrušiť čo najrýchlejšie!",sk
+168,Info o objednávke,"Dobrý deň, rád by som vedel kedy mi príde objednávka č. 72891. Objednal som ju v pondelok.",sk
+169,PSČ je zlé,"Dobrý deň, objednávka 71953, zadal som zlé PSČ. Môžete to opraviť?",sk
+170,Kedy odoslaná 83756?,"Dobrý večer, objednávka č. 83756 kedy odoslaná? Ďakujem za info.",sk
+171,Vrátenie jedného produktu,"Dobrý večer, obj 77528, potrebujem vrátiť jeden produkt zo štyroch. Je to možné?",sk
+172,Obsah kofeínu,"Ahoj, koľko kofeínu obsahuje váš predtréningový doplnok? Nechcem mať problémy so spánkom.",sk
+173,Pridať druhý produkt,"Dobrý večer, objednávka 91387, môžete pridať ešte jednu vec? Zaplatím rozdiel.",sk
+174,Pridať zľavový kupón,"Ahoj, objednávka 81725, zabudol som použiť zľavový kupón. Dá sa to ešte pridať?",sk
+175,Ktorý gainér najlepší?,"Dobrý večer, ktorý gainér mi odporúčate pre nabieranie hmoty?",sk
+176,Sponzoring crossfit boxu,"Dobrý deň, som majiteľ nového crossfit boxu v Bratislave. Otvárame budúci mesiac a hľadáme partnerov, ktorí by nás podporili produktmi alebo finančne. Máte 50 členov, môžeme vyvesiť vaše bannery. Záujem?",sk
+177,Môžem platiť kartou?,"Dobrý večer, aké máte možnosti platby? Dá sa platiť kartou online?",sk
+178,Ako funguje Na poštu?,"Dobrý večer, ako funguje doručenie Na poštu? Môžem si vybrať pobočku?",sk
+179,Chýbajú 2 produkty,"Ahojte, v objednávke 77159 chýbajú 2 produkty zo 4 ktoré som si objednal. Čo sa stalo?",sk
+180,Kde je moja objednávka?,"Dobrý deň, chcel by som sa opýtať na stav mojej objednávky č. 45892. Objednal som si ju pred 4 dňami a stále nemám žiadne info o odoslaní. Kedy mi to príde? Ďakujem.",sk
+181,Dá sa zmeniť objednávka?,"Ahoj, dá sa nejako zmeniť už vytvorená objednávka?",sk
+182,Vrátenie po vyskúšaní,"Dobrý večer, obj 94582, môžem vrátiť aj keď som už vyskúšal jednu dávku?",sk
+183,Zlá veľkosť trička,Prosím vás poslali ste mi zlú veľkosť trička. Obj 47823. Objednal som L ale prišlo XXL.,sk
+184,Investičná príležitosť!!!,"Dobrý večer, mám pre vás jedinečnú investičnú príležitosť! Bitcoin mining s garantovaným výnosom 300% ročne! Investujte minimálne 1000 EUR a za rok budete mať 4000 EUR! Kontaktujte ma na cryptoscam@email.com",sk
+185,Návod ako postupovať,"Objednávka 88935, vrátenie tovaru. Pošlite mi prosím návod ako postupovať.",sk
+186,Tepláky Slimfit strih,"Dobrý deň, tepláky Slimfit Black sú naozaj slim fit alebo skôr normálny strih? Mám silnejšie nohy od cvičenia.",sk
+187,Obsah laktózy,"Ahoj, koľko laktózy obsahuje váš whey proteín? Mám mierne problémy s laktózou.",sk
+188,Kedy doručená?,"Dobrý deň, chcem sa spýtať na objednávku 57832. Kedy bude doručená?",sk
+189,Stratil som faktúru,"Ahoj, obj 62417 chcem vrátiť ale stratil som faktúru. Je to problém?",sk
+190,Koľko dní na vrátenie?,Prosím o vrátenie obj 74981. Koľko dní mám čas na vrátenie tovaru?,sk
+191,Kam poslať tovar?,"Dobrý deň, objednávka 84315 vrátenie, kam mám poslať tovar?",sk
+192,Serious Mass kalórie,"Dobrý deň, koľko kalórií má jedna dávka Serious Mass od Optimum Nutrition? A koľko sacharidov?",sk
+193,Zlepený prášok!!!,"CHCEM REKLAMOVAŤ! Obj. 83671, prášok je celý zlepený, vyzerá to že tam zatiekla voda!!!",sk
+194,Tričko Beyond Limits veľkosť,"Ahoj, chcel by som sa opýtať na tričko Beyond Limits Black. Ako veľké veľkosti máte? Nosím normálne M, ale neviem či vaše tričká sedia menšie alebo väčšie.",sk
+195,Darovanie produktov pre charitatívny beh,"Dobrý večer, organizujeme charitatívny beh pre deti s rakovinou. Zúčastní sa 300 ľudí. Mohli by ste darovať nejaké proteíny alebo tyčinky do štartovacích balíčkov? Všetci účastníci dostanú propagačné materiály s vašim logom.",sk
+196,Chcem vymazať účet,"Dobrý večer, chcem vymazať môj účet z vašej stránky. Ako na to?",sk
+197,Už tretíkrát zlý produkt!,"Toto je už tretíkrát čo mi pošlete zlý produkt! Obj 58764. Som veľmi nespokojný, zvažujem kontakt s právnikom.",sk
+198,Kam sa mám obrátiť s problémom?,"Dobrý večer, kde vás môžem kontaktovať ak mám problém s objednávkou?",sk
+199,Zlá adresa dopravy,"Obj 58716 ZRUŠIŤ! Zadal som zlú adresu dopravy, nedá sa zmeniť?",sk
+200,Nečakane nemám peniaze,Obj 93528 zrušiť prosím. Zistil som že nemám dostatok peňazí na účte.,sk
+201,Omylom som klikol,Prosím o zrušenie objednávky 84329. Omylom som klikol na dokončiť objednávku.,sk
+202,Zmeniť veľkosť trička,"Dobrý deň, objednávka 62847, objednal som L ale potrebujem XL. Dá sa zmeniť?",sk
+203,Pracujete na Vianoce?,"Ahoj, budete expedovať objednávky počas vianočných sviatkov?",sk
+204,TÝŽDEŇ ČAKÁM!!!,NECHÁPEM ČO SA DEJE! Objednávka 71234 už TÝŽDEŇ nič! Potrebujem to TERAZ!,sk
+205,Dôvod vrátenia?,Prosím vás vrátenie tovaru obj 63582. Musím uviesť nejaký dôvod prečo vraciam?,sk
+206,Upraviť objednávku 94176,"Objednávka 94176, potrebujem ju upraviť. Chcem pridať ešte jeden produkt.",sk
+207,Expirovaný proteín,"Dobrý deň, reklamácia objednávky 62947. Prišiel mi expirovaný proteín, exspirácia bola pred 2 mesiacmi!",sk
+208,VÝHRA V LOTÉRII!!!,GRATULUJEME!!! Vyhrali ste 50000 EUR v našej lotérii! Kliknite na tento link www.fake-lottery.com a zadajte vaše bankové údaje pre vyplatenie výhry!!! PONÁHĽAJTE SA!!!,sk
+209,Proteín mi nesadol,"Dobrý večer, obj. 52794, proteín mi nesadol, mám problémy so žalúdkom. Môžem to vrátiť?",sk
+210,Zmena objednávky 45871,"Dobrý deň, môžem zmeniť adresu doručenia v objednávke 45871? Presťahujem sa.",sk
+211,Expedujete do 24 hodín?,"Ahoj, je pravda že expedujete do 24 hodín?",sk
+212,Zmeniť celú adresu,Obj. 65819 zmena adresy prosím. Poslal som to na starú adresu omylom.,sk
+213,Aké sú možnosti dopravy?,"Dobrý deň, chcel by som sa opýtať aké máte možnosti dopravy a koľko stojí prepravné?",sk
+214,Ashwagandha KSM-66 účinok,"Ahojte, Ashwagandha KSM-66 je lepšia ako bežná Ashwagandha 500mg? V čom je rozdiel? Potrebujem na stres.",sk
+215,Overal FIT funkcie,"Ahojte, dámsky overal FIT Black má funkciu 4-way stretch? A je vhodný aj na jogu?",sk
+216,Aká je otváracie hodiny predajne?,"Dobrý deň, aké máte otváracie hodiny na predajni v Košiciach?",sk
+217,Objednávka z 5.10.,"Dobrý deň, objednávka 61823 bola vytvorená 5.10. a stále nič. Je všetko OK?",sk
+218,Obsah bielkovín na dávku,"Dobrý večer, koľko gramov bielkovín je v jednej odmerke vášho iso whey proteínu?",sk
+219,Sponzorstvo powerlifting súťaže,"Dobrý večer, som organizátor Slovenského pohára v powerliftingu. Hľadáme titulárneho sponzora pre celú sezónu (8 pretekov). Môžeme ponúknuť logo na diplómoch, pohárov, bannery na miestach konania. Cena sponzorstva 3000 EUR ročne. Máte záujem?",sk
+220,Môžem zaplatiť prevodom?,"Dobrý deň, dá sa zaplatiť bankovým prevodom? Ako to funguje?",sk
+221,Chcem fakúru,"Dobrý večer, potrebujem pre objednávku 73851 faktúru na firmu. Ako to zariadiť?",sk
+222,Pre ženy,"Dobrý deň, máte nejaké produkty špecificky pre ženy?",sk
+223,Ako sledovať zásielku?,"Dobrý deň, kde môžem sledovať moju zásielku? Ako to funguje?",sk
+224,Pre diabetikov,"Dobrý večer, som diabetik. Ktoré produkty sú pre mňa vhodné? Obávam sa obsahu cukru.",sk
+225,Proteín pre chudnutie,"Dobrý večer, ktorý proteín odporúčate na chudnutie? Chcem schudnúť 10kg.",sk
+226,Zmeniť telefónne číslo,"Ahojte, obj 64285, potrebujem zmeniť telefónne číslo pre kuriéra.",sk
+227,Zlý účet použitý,"Ahoj, zrušiť objednávku 88962? Použil som zlý účet na objednanie.",sk
+228,Rozšírte si penis!!!,REVOLUTIONARY METHOD!!! Zväčšite si penis o 8 cm za 2 týždne!!! 100% prírodný produkt!!! Kliknite tu www.spam-product.com,sk
+229,Peniaze hneď?,"Dobrý deň, obj 54871 vrátenie, môžem dostať peniaze hneď?",sk
+230,Koľko proteínu denne?,"Dobrý deň, chcel by som sa opýtať koľko gramov proteínu by som mal užívať denne pri váhe 80kg?",sk
+231,Pomoc so zistením stavu,"Prosím Vás pekne, môžete mi pomôcť zistiť kde je moja objednávka? Číslo je 82456.",sk
+232,Aký je rozdiel medzi ISO a klasickým?,"Prosím vás, aký je rozdiel medzi ISO whey a klasickým whey proteínom?",sk
+233,Žiadna zmena v stave,Chcel by som sa informovať o mojej objednávke č. 93214. Už 4 dni žiadna zmena v stave.,sk
+234,True Whey ProDigest stráviteľnosť,"Dobrý večer, True Whey ProDigest má v sebe nejaké enzýmy na lepšie trávenie? Mám citlivý žalúdok na bežný whey.",sk
+235,Vrátenie 2 produktov,"Ahoj, potrebujem vrátiť 2 produkty z objednávky 67341. Prídu mi vyzdvihnúť kuriérom?",sk
+236,Ako použiť darčekovú poukážku?,"Ahoj, ako môžem uplatniť darčekovú poukážku pri objednávke?",sk
+237,Koľko trvá vybavenie?,"Ahojte, chcem vrátiť produkt z obj. 73189. Koľko to bude trvať celé vybavenie?",sk
+238,Iný produkt ako objednaný,"Objednávka 59817, prišiel mi iný produkt ako som objednával. Toto už nie je prvýkrát!",sk
+239,Prederavený obal,"Ahoj, objednávka 65748, obal od gainery je prederavený, prášok je po celom balíku.",sk
+240,Ako dlho trvá vybavenie?,"Ahoj, ako dlho trvá vybavenie vrátenia? Obj. 58964",sk
+241,Link nefunguje,"Ahoj, kde môžem sledovať objednávku 51934? Link nefunguje.",sk
+242,Zmeniť počet kusov,"Dobrý deň, obj. 69384, môžete mi zmeniť počet kusov? Namiesto 2 chcem 3.",sk
+243,Verdiene Geld von zu Hause,Hallo! Arbeiten Sie von zu Hause aus und verdienen Sie 5000 Euro pro Monat! Keine Erfahrung erforderlich! Besuchen Sie unsere Website www.workfromhome-scam.de JETZT!!!,sk
+244,Vzorky zadarmo?,"Ahoj, dávate niekedy vzorky zadarmo k objednávke?",sk
+245,Kombinovať vitamíny,"Prosím vás, môžem kombinovať multivitamín s vitamínom D3 a omega 3? Nie je to moc?",sk
+246,Zrušiť dnes vytvorenú,Prosím vás zrušte objednávku 82651. Vytvoril som ju dnes ráno.,sk
+247,5 dní nič,Prosím o informáciu ohľadom objednávky 76489. Už 5 dní nič.,sk
+248,Platí sa za osobný odber?,"Dobrý večer, ak si vyzdvihnem objednávku na predajni, platím nejaký poplatok?",sk
+249,Ako postupovať pri reklamácii?,"Dobrý večer, objednávka 89465 obsahuje poškodený tovar. Ako postupovať pri reklamácii?",sk
+250,Rozdiel medzi casein a whey,"Ahojte, aký je vlastně rozdiel medzi caseinovým a whey proteínom? Kedy čo užívať?",sk
+251,Nefunkčný tracking,Prosím vás pošlite mi info o objednávke 54329. Tracking nefunguje.,sk
+252,Sú náklady za vrátenie?,"Prosím vás, platím za vrátenie tovaru nejaké poplatky?",sk
+253,Mikina Athlete zloženie,"Prosím vás, môžete mi povedať presné zloženie mikiny Athlete Grey Black? Som alergická na niektoré syntetické materiály.",sk
+254,OBJEDNÁVKA KDE JE????,OBJEDNÁVKA 84569 KDE JE????,sk
+255,Omega 3 pôvod,"Dobrý večer, odkiaľ pochádza rybí olej vo vašich Omega 3 kapslách? Je to z voľne žijúcich rýb alebo z fariem?",sk
+256,Chýba polovica objednávky!,"URGENTNE! Obj 76593, chýba polovica objednávky! Kde je zvyšok tovaru???",sk
+257,Pre začiatočníka,"Ahoj, som úplný začiatočník vo fitku. Čo mi odporúčate ako prvý suplement?",sk
+258,Môžem vymeniť tovar?,"Ahoj, dá sa tovar vymeniť za iný alebo len vrátiť?",sk
+259,ÚPLNE INÝ PRODUKT!,"Obj. 82365 REKLAMÁCIA, prišiel úplne iný produkt! Som nahnevaný, toto je neprofesionálne!",sk
+260,Sponzoring fitness súťaže,"Dobrý deň, som organizátor fitness súťaže Miss Bikini Fitness Slovensko 2026. Hľadáme hlavného sponzora pre túto prestížnú udalosť. Máte záujem o spoluprácu? Účasť 500 pretekárov, mediálne pokrytie zaručené.",sk
+261,Už to ide?,Potrebujem info o objednávke č. 46758. Už to ide alebo ešte nie?,sk
+262,Mám nárok na zľavu?,"Dobrý večer, mám nárok na nejakú študentskú zľavu?",sk
+263,Musím vyplniť formulár?,"Dobrý deň, vrátenie objednávky 55836, musím vyplniť nejaký formulár?",sk
+264,Balík nedorazil,"Prosím Vás, môžete mi povedať kde je balík s číslom objednávky 92341? Potrebujem to naliehavo.",sk
+265,Hydrolyzovaný kolagén RunCollg užívanie,"Dobrý deň, Hydrolyzovaný kolagén RunCollg sa dá miešať do kávy? A koľko gramov denne odporúčate na kĺby?",sk
+266,ZERO SIRUP čokoláda chuť,"Prosím vás, je ZERO SIRUP čokoláda naozaj bez cukru? A chutí to dobre alebo je tam silná príchuť sladidiel?",sk
+267,WEIGHT LOSS MIRACLE!!!,LOSE 20 KG IN 2 WEEKS!!! NO DIET NO EXERCISE!!! MIRACLE PILL FROM HOLLYWOOD STARS!!! ORDER NOW www.miracle-weightloss-scam.com ONLY 99.99 EUR!!!,sk
+268,Partnerstvo fitness blogger,"Dobrý večer, som fitness blogerka na Instagrame, mám 15000 followerov. Zaujíma ma partnerstvo s vašou značkou. Môžem posielať Stories s vašimi produktmi výmenou za mesačné balíčky. Mám veľmi angažované publikum, hlavne ženy 20-35 rokov.",sk
+269,Kedy zľavy?,"Dobrý deň, kedy budete mať nejaké akcie alebo výpredaje?",sk
+270,Exspirovaná tyčinka!!!,"Objednávka č. 92157, proteínová tyčinka je po exspirácii!!! Toto je vážne? Chcem reklamovať!",sk
+271,Doručujete cez víkend?,"Ahoj, doručujete zásielky aj v sobotu a nedeľu?",sk
+272,Pridať poznámku pre kuriéra,"Dobrý večer, objednávka 89174, môžem pridať poznámku pre kuriéra?",sk
+273,Thor Fuel + Vitargo dávkovanie,"Ahoj, ako sa dávkuje Thor Fuel + Vitargo? Koľko g na jednu dávku a kedy to brať? Pred alebo po tréningu?",sk
+274,Sponzorstvo športovca,"Dobrý večer, som profesionálny športovec, ponúkate nejaké sponzorské programy?",sk
