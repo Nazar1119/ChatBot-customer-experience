@@ -6,3 +6,5 @@ torch
 matplotlib
 plotly
 seaborn
+python-dotenv
+requests
