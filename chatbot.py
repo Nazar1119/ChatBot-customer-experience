@@ -6,6 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from dotenv import load_dotenv
 from spam_filter import is_spam
 from prototypes import PROTOTYPES, LEGAL_WORDS, DOSAGE_WORDS, YES_WORDS, NO_WORDS, CATEGORIES
+load_dotenv()
 
 
 model = SentenceTransformer("intfloat/multilingual-e5-base")
@@ -61,9 +62,12 @@ def extract_order_number(text):
 
 def cancel_order(order_number):
 
-    load_dotenv()
     API_URL = os.getenv("API_URL")
     API_KEY = os.getenv("API_KEY")
+
+    if not API_URL or not API_KEY:
+        raise ValueError("Missing API config")
+
     try:
         response = requests.post(
             f"{API_URL}?api_key={API_KEY}",
@@ -81,15 +85,26 @@ def cancel_order(order_number):
 def handle_cancel(text):
 
     order_number = extract_order_number(text)
+    if not order_number:
+        return {"message":"Prosím, pošli mi číslo objednávky.",
+                    "needs_escalation_confirmation": False}
 
     status_code, data = cancel_order(order_number)
+
+    if not isinstance(data, dict):
+        return {
+            "message": "Nastala technická chyba. Skús to prosím neskôr.",
+            "needs_escalation_confirmation": False
+        }
+
     api_status = data.get("status")
 
     if api_status == "error":
         error_code = data.get("error_code")
 
         if error_code == "ORDER_NOT_FOUND":
-            return "Objednávku s týmto číslom som nenašiel. Skontroluj ho prosím ešte raz."
+            return {"message": "Objednávku s týmto číslom som nenašiel. Skontroluj ho prosím ešte raz.",
+                        "needs_escalation_confirmation": False}
 
         elif error_code == "ORDER_NOT_CANCELLABLE":
             current_status = data.get("current_status", "")
@@ -97,23 +112,23 @@ def handle_cancel(text):
                 "message": f"Mrzí ma to, ale objednávku {order_number} už nie je možné zrušiť "
                            f"(aktuálny stav: {current_status}). "
                            "Chceš, aby som ťa prepojil na kolegu z podpory?",
-                "needs_escalation_confirmation": True
+                    "needs_escalation_confirmation": True
             }
 
 
         else:
-            return f"Nastala chyba: {data.get('message', 'Neznáma chyba')}"
+            return {"message":f"Nastala chyba: {data.get('message', 'Neznáma chyba')}",
+                        "needs_escalation_confirmation": False}
 
     elif api_status == "success":
         refund = data.get("refund_amount", "")
-        return (
-            f"Tvoja objednávka {order_number} bola úspešne zrušená. "
-            f"Suma {refund} € ti bude vrátená."
-        )
+        return {"message": f"Tvoja objednávka {order_number} bola úspešne zrušená. "
+                            f"Suma {refund} € ti bude vrátená.",
+                    "needs_escalation_confirmation": False}
 
     else:
-        return "Požiadavku odovzdávam kolegovi z podpory."
-
+        return {"message":"Požiadavku odovzdávam kolegovi z podpory.",
+                    "needs_escalation_confirmation": False}
 
 
 
@@ -121,36 +136,46 @@ def generate_response(text, category):
 
     if should_escalate_legal(text):
         return {"message" :"Chceš, aby som ťa prepojil na kolegu z podpory?",
-        "needs_escalation_confirmation": True}
+                    "needs_escalation_confirmation": True}
 
     if category == "Product Question" and is_dosage_question(text):
-        return ("Pri dávkovaní ti, žiaľ, nemôžem konkrétne poradiť. "
-            "Odporúčam obrátiť sa na výživového poradcu alebo lekára.")
+        return {"message":"Pri dávkovaní ti, žiaľ, nemôžem konkrétne poradiť. "
+                          "Odporúčam obrátiť sa na výživového poradcu alebo lekára.",
+                    "needs_escalation_confirmation": False}
 
     if category == "Return / Complaint":
-        return {"message":
-            "Mrzí ma, že nastal problém 😕\n\n"
-            "Tovar môžeš zaslať na adresu:\n"
-            "GymBeam, Rastislavova 93, 040 01 Košice\n\n"
-            "Na balík napíš „Vratka“ alebo „Reklamácia“ + číslo objednávky.",
-            "Chceš, aby som ťa prepojil na kolegu z podpory?"
-        "needs_escalation_confirmation": True}
+        return {
+            "message":
+                "Mrzí ma, že nastal problém 😕\n\n"
+                "Tovar môžeš zaslať na adresu:\n"
+                "GymBeam, Rastislavova 93, 040 01 Košice\n\n"
+                "Na balík napíš „Vratka“ alebo „Reklamácia“ + číslo objednávky.\n\n"
+                "Chceš, aby som ťa prepojil na kolegu z podpory?",
+            "needs_escalation_confirmation": True
+        }
+
 
     if category == "Order Cancel":
         return handle_cancel(text)
 
     if category == "Order Status":
-        return ("Stav objednávky si môžeš skontrolovať cez tracking číslo,"
-                 "ktoré ti prišlo v potvrdzovacom emaili.")
+        return {"message":"Stav objednávky si môžeš skontrolovať cez tracking číslo,"
+                          "ktoré ti prišlo v potvrdzovacom emaili.",
+                    "needs_escalation_confirmation": False}
 
-    if category == "Store / Delivery / Aviability":
-        return ( "Rád ti pomôžem 🙂 Napíš mi prosím konkrétnejšie, čo ťa zaujíma "
-                 "(doprava, predajňa, dostupnosť tovaru...).")
+    if category == "Store / Delivery / Availability":
+        return {"message":"Rád ti pomôžem 🙂 Napíš mi prosím konkrétnejšie, čo ťa zaujíma "
+                          "(doprava, predajňa, dostupnosť tovaru...).",
+                    "needs_escalation_confirmation": False}
 
     if category == "Cooperation / Partnership":
-        return "Tvoju ponuku odovzdávam príslušnému oddeleniu."
+        return {"message":"Tvoju ponuku odovzdávam príslušnému oddeleniu.",
+                    "needs_escalation_confirmation": False}
 
-    return "Tvoju správu odovzdávam kolegovi z podpory."
+    return {
+        "message": "Tvoju správu odovzdávam kolegovi z podpory.",
+        "needs_escalation_confirmation": False
+    }
 
 
 pending_action = None
@@ -192,15 +217,11 @@ while True:
         if order_number:
             result = handle_cancel(user_input)
 
-            if isinstance(result, dict):
-                reply = result["message"]
+            reply = result["message"]
 
-                if result.get("needs_escalation_confirmation"):
-                    pending_action = "confirm_escalation"
-                else:
-                    pending_action = None
+            if result.get("needs_escalation_confirmation"):
+                pending_action = "confirm_escalation"
             else:
-                reply = result
                 pending_action = None
 
         else:
@@ -233,16 +254,17 @@ while True:
         else:
             result = handle_cancel(user_input)
 
-            if isinstance(result, dict):
-                reply = result["message"]
+            reply = result["message"]
 
-                if result.get("needs_escalation_confirmation"):
-                    pending_action = "confirm_escalation"
-            else:
-                reply = result
+            if result.get("needs_escalation_confirmation"):
+                pending_action = "confirm_escalation"
 
     else:
-        reply = generate_response(user_input, category)
+        result = generate_response(user_input, category)
+        reply = result["message"]
+
+        if result["needs_escalation_confirmation"]:
+            pending_action = "confirm_escalation"
 
 
     # ======================================
