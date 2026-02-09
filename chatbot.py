@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from dotenv import load_dotenv
 from spam_filter import is_spam
-from prototypes import PROTOTYPES, LEGAL_WORDS, DOSAGE_WORDS, YES_WORDS, NO_WORDS, CATEGORIES
+from prototypes import PROTOTYPES, LEGAL_WORDS, DOSAGE_WORDS, YES_WORDS, NO_WORDS
 load_dotenv()
 
 
@@ -93,8 +93,9 @@ def handle_cancel(text):
 
     if not isinstance(data, dict):
         return {
-            "message": "Nastala technická chyba. Skús to prosím neskôr.",
-            "needs_escalation_confirmation": False
+            "type": "system",
+            "reason": "api_error",
+            "original_text": text
         }
 
     api_status = data.get("status")
@@ -109,10 +110,9 @@ def handle_cancel(text):
         elif error_code == "ORDER_NOT_CANCELLABLE":
             current_status = data.get("current_status", "")
             return {
+                "type": "customer",
                 "message": f"Mrzí ma to, ale objednávku {order_number} už nie je možné zrušiť "
-                           f"(aktuálny stav: {current_status}). "
-                           "Chceš, aby som ťa prepojil na kolegu z podpory?",
-                    "needs_escalation_confirmation": True
+                           f"(aktuálny stav: {current_status})."
             }
 
 
@@ -135,8 +135,11 @@ def handle_cancel(text):
 def generate_response(text, category):
 
     if should_escalate_legal(text):
-        return {"message" :"Chceš, aby som ťa prepojil na kolegu z podpory?",
-                    "needs_escalation_confirmation": True}
+        return {
+            "type": "system",
+            "reason": "legal_issue",
+            "original_text": text
+        }
 
     if category == "Product Question" and is_dosage_question(text):
         return {"message":"Pri dávkovaní ti, žiaľ, nemôžem konkrétne poradiť. "
@@ -178,101 +181,91 @@ def generate_response(text, category):
     }
 
 
-pending_action = None
-
-while True:
-    user_input = input("Zákazník: ")
-
-    if user_input.lower() == "exit":
-        break
+def process_message(user_input, state):
 
     lower_input = user_input.lower()
+    pending_action = state.get("pending_action")
 
-    # ======================================
-    # CONFIRM ESCALATION STATE (FIRST)
-    # ======================================
+    # =========================
+    # CONFIRM ESCALATION
+    # =========================
     if pending_action == "confirm_escalation":
 
         if any(word in lower_input for word in YES_WORDS):
-            print("Chatbot: Prepojujem ťa na kolegu z podpory.")
-            pending_action = None
-            continue
+            state["pending_action"] = None
+            return "Prepojujem ťa na kolegu z podpory.", state
 
         elif any(word in lower_input for word in NO_WORDS):
-            print("Chatbot: Rozumiem 🙂 Ak budeš niečo potrebovať, pokojne napíš.")
-            pending_action = None
-            continue
+            state["pending_action"] = None
+            return "Rozumiem 🙂 Ak budeš niečo potrebovať, pokojne napíš.", state
 
         else:
-            print("Chatbot: Prosím odpíš mi áno alebo nie 🙂")
-            continue
+            return "Prosím odpíš mi áno alebo nie 🙂", state
 
 
-    # ======================================
+    # =========================
     # WAITING FOR ORDER NUMBER
-    # ======================================
+    # =========================
     if pending_action == "cancel_order":
+
         order_number = extract_order_number(user_input)
 
         if order_number:
             result = handle_cancel(user_input)
 
-            reply = result["message"]
-
-            if result.get("needs_escalation_confirmation"):
-                pending_action = "confirm_escalation"
-            else:
-                pending_action = None
+            state["pending_action"] = None
+            return result["message"], state
 
         else:
-            reply = "Stále potrebujem číslo objednávky, aby som ju vedel zrušiť."
-
-        print("Chatbot:", reply)
-        continue
+            return "Stále potrebujem číslo objednávky.", state
 
 
-    # ======================================
+    # =========================
     # SPAM CHECK
-    # ======================================
+    # =========================
     if is_spam(user_input):
-        print("Chatbot: Správa bola vyhodnotená ako podozrivá.")
-        continue
+        return "Správa bola vyhodnotená ako podozrivá.", state
 
 
-    # ======================================
-    # NORMAL CLASSIFICATION
-    # ======================================
+    # =========================
+    # CLASSIFICATION
+    # =========================
     category, score = classify_email(user_input)
-    print(f"[DEBUG] Category: {category}, score: {score:.3f}")
 
     if category == "Order Cancel":
+
         order_number = extract_order_number(user_input)
 
         if not order_number:
-            pending_action = "cancel_order"
-            reply = "Aby som ti vedel pomôcť, pošli mi prosím číslo objednávky."
-        else:
-            result = handle_cancel(user_input)
+            state["pending_action"] = "cancel_order"
+            return "Pošli mi prosím číslo objednávky.", state
 
-            reply = result["message"]
+        result = handle_cancel(user_input)
+        return result["message"], state
 
-            if result.get("needs_escalation_confirmation"):
-                pending_action = "confirm_escalation"
+    result = generate_response(user_input, category)
 
-    else:
-        result = generate_response(user_input, category)
-        reply = result["message"]
+    reply = result["message"]
 
-        if result["needs_escalation_confirmation"]:
-            pending_action = "confirm_escalation"
+    if result.get("needs_escalation_confirmation"):
+        state["pending_action"] = "confirm_escalation"
 
-
-    # ======================================
-    # ANGER TONE
-    # ======================================
     if is_angry(user_input):
-        reply = "Rozumiem, že situácia môže byť nepríjemná. Pokúsim sa ti pomôcť. " + reply
+        reply = "Rozumiem, že situácia môže byť nepríjemná. " + reply
 
+    return reply, state
+
+state={
+    "pending_action": None,
+}
+
+while True:
+
+    user_input = input("Zákazník: ")
+
+    if user_input.lower() == "exit":
+        break
+
+    reply, state = process_message(user_input, state)
 
     print("Chatbot:", reply)
-
