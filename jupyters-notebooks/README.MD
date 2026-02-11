@@ -1,4 +1,4 @@
-# 📧 GymBeam – Email Intent Classification System
+# 📧Email Intent Classification System
 
 ## Overview
 
